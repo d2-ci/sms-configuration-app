@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-28T11:33:49.940Z\n"
+"PO-Revision-Date: 2020-08-28T11:33:49.940Z\n"
+
+msgid "Something went wrong whilst loading the sms command"
+msgstr ""
+
+msgid "Something went wrong whilst loading the command's details"
+msgstr ""
+
+msgid "Program Stage Data Elements"
+msgstr ""
+
+msgid "Save sms command"
+msgstr ""
+
+msgid "You either have to provide all values or none"
+msgstr ""
+
+msgid "Duplicate value!"
+msgstr ""
+
+msgid "Something went wrong whilst loading the data element category combos"
+msgstr ""
+
+msgid "Tracked entity attribute"
+msgstr ""
+
+msgid "Something went wrong whilst submitting the form"
+msgstr ""
+
+msgid "Add special character"
+msgstr ""
+
+msgid "Data element category combination"
+msgstr ""
+
+msgid "Data element category combination validation error"
+msgstr ""
+
+msgid "Delete confirmation"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Delete command configurations"
+msgstr ""
+
+msgid "Completeness method"
+msgstr ""
+
+msgid "Confirm Message"
+msgstr ""
+
+msgid "Reply message if no codes are sent (only the command)"
+msgstr ""
+
+msgid "More than one OrgUnit message"
+msgstr ""
+
+msgid "No user message"
+msgstr ""
+
+msgid "Parser"
+msgstr ""
+
+msgid "Field separator"
+msgstr ""
+
+msgid "Special character name"
+msgstr ""
+
+msgid "Special character value"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Success message"
+msgstr ""
+
+msgid "Use current period for reporting"
+msgstr ""
+
+msgid "Wrong format message"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "Change formula"
+msgstr ""
+
+msgid "Add formula"
+msgstr ""
+
+msgid "Data element"
+msgstr ""
+
+msgid "formula operator"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Submitting..."
+msgstr ""
+
+msgid "Receive all data value"
+msgstr ""
+
+msgid "Receive at least one data value"
+msgstr ""
+
+msgid "Do not mark as complete"
+msgstr ""
+
+msgid "Key value parser"
+msgstr ""
+
+msgid "J2ME parser"
+msgstr ""
+
+msgid "Alert parser"
+msgstr ""
+
+msgid "Unregistered parser"
+msgstr ""
+
+msgid "Tracked entity registration parser"
+msgstr ""
+
+msgid "Program stage data entry parser"
+msgstr ""
+
+msgid "Event registration parser"
+msgstr ""
+
+msgid "Data set"
+msgstr ""
+
+msgid "Is default"
+msgstr ""
+
+msgid "Auth token"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Url template"
+msgstr ""
+
+msgid "User name"
+msgstr ""
+
+msgid "Add key value pair"
+msgstr ""
+
+msgid "Save BulkSMS gateway"
+msgstr ""
+
+msgid "Add BulkSMS gateway"
+msgstr ""
+
+msgid "Save Clickatell gateway"
+msgstr ""
+
+msgid "Add Clickatell gateway"
+msgstr ""
+
+msgid "Save generic gateway"
+msgstr ""
+
+msgid "Add generic gateway"
+msgstr ""
+
+msgid "In generic http gateway any number of parameters can be added."
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Is header"
+msgstr ""
+
+msgid "Encode"
+msgstr ""
+
+msgid "Confidential"
+msgstr ""
+
+msgid "Remove key value pair"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Default gateway"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Make default"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "BulkSMS"
+msgstr ""
+
+msgid "Clickatell"
+msgstr ""
+
+msgid "Generic"
+msgstr ""
+
+msgid "This app is not stable yet"
+msgstr ""
+
+msgid "Loading link..."
+msgstr ""
+
+msgid "Go to mobile configuration app"
+msgstr ""
+
+msgid "Hide this message"
+msgstr ""
+
+msgid "Program"
+msgstr ""
+
+msgid "ProgramStage"
+msgstr ""
+
+msgid "UserGroup"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Gateway type"
+msgstr ""
+
+msgid "Generic form"
+msgstr ""
+
+msgid "BulkSMS form"
+msgstr ""
+
+msgid "Clickatell form"
+msgstr ""
+
+msgid ""
+"There are five different types of Gateways supported by SMS Service. SMS "
+"can be sent if any one of the gateway is configured. If more than one "
+"gateways are present, then they will be used in round-robin fashion for "
+"load balancing"
+msgstr ""
+
+msgid "Add gateway"
+msgstr ""
+
+msgid "Delete selected gateway configurations"
+msgstr ""
+
+msgid "Loading gateway configurations"
+msgstr ""
+
+msgid "Delete checked messages"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Filter by status"
+msgstr ""
+
+msgid "Filter by phone number"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "per page"
+msgstr ""
+
+msgid "Viewing {{firstItem}}-{{lastItem}} of {{total}}"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "of {{pageCount}}"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "List of received SMS"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Phone number"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Sender"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "No received SMSs to display"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Could not load list of received SMSs"
+msgstr ""
+
+msgid "Received sms"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Incoming"
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "Unhandled"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Processed"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Delete selected SMSes"
+msgstr ""
+
+msgid "SMSes per page"
+msgstr ""
+
+msgid "List of sent SMSes"
+msgstr ""
+
+msgid "Something went wrong whilst loading sent SMSes"
+msgstr ""
+
+msgid "Recipients"
+msgstr ""
+
+msgid "No SMSes to display"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Outbound"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+msgid "Something went wrong whilst loading commands"
+msgstr ""
+
+msgid "Add sms command"
+msgstr ""
+
+msgid "SMS Command"
+msgstr ""
+
+msgid ""
+"There are five different types of SmsCommands supported by SMS Service. SMS "
+"can be sent if any one of the gateway is configured. If more than one "
+"gateways are present, then they will be used in round-robin fashion for "
+"load balancing"
+msgstr ""
+
+msgid "Add command"
+msgstr ""
+
+msgid "Delete selected gateway commands"
+msgstr ""
+
+msgid "Sms command"
+msgstr ""

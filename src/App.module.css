@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-areas: "sidebar main";
+    grid-template-columns: 300px auto;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding-top: 20px;
+}
+
+.content {
+    position: relative;
+    grid-area: main;
+    padding: 20px;
+}
