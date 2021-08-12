@@ -4,7 +4,7 @@
   "title": "SMS Configuration",
   "description": "Configure SMS gateways and manage SMS messages",
   "coreApp": true,
-  "version": "1.0.0",
+  "version": "1.2.11",
   "author": {
     "name": "Jan-Gerke Salomon",
     "email": "jan-gerke@dhis2.org"
