@@ -1,0 +1,28 @@
+{
+  "app_hub_id": "441cad0c-395a-4e93-8f10-475602397371",
+  "appType": "APP",
+  "short_name": "sms-configuration",
+  "name": "SMS Configuration",
+  "description": "Configure SMS gateways and manage SMS messages",
+  "version": "100.0.0",
+  "core_app": true,
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "developer": {
+    "name": "Jan-Gerke Salomon",
+    "email": "jan-gerke@dhis2.org"
+  },
+  "manifest_generated_at": "Thu Mar 31 2022 14:42:11 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}
