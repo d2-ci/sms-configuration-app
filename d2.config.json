@@ -10,5 +10,8 @@
   "author": {
     "name": "Jan-Gerke Salomon",
     "email": "jan-gerke@dhis2.org"
+  },
+  "entryPoints": {
+    "app": "index.html"
   }
 }
