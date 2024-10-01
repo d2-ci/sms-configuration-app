@@ -1,6 +1,6 @@
 {
     "name": "sms-configuration-app",
-    "version": "100.0.53",
+    "version": "100.0.54",
     "description": "",
     "license": "BSD-3-Clause",
     "author": "Jan-Gerke Salomon <jan-gerke@dhis2.org>",
@@ -45,12 +45,15 @@
         "@dhis2/app-runtime": "^3.2.0",
         "@dhis2/d2-i18n": "^1.1.0",
         "@dhis2/prop-types": "^2.0.0",
-        "@dhis2/ui": "^9.11.3",
+        "@dhis2/ui": "^9.11.7",
         "classnames": "^2.2.6",
         "moment": "^2.27.0",
         "query-string": "^6.13.8",
         "react-router-dom": "^5.2.0",
         "use-debounce": "^5.2.1",
         "use-query-params": "^1.1.9"
+    },
+    "resolutions": {
+        "@dhis2/ui": "^9.11.7"
     }
 }
