@@ -4,7 +4,7 @@
   "short_name": "sms-configuration",
   "name": "SMS Configuration",
   "description": "Configure SMS gateways and manage SMS messages",
-  "version": "100.0.56",
+  "version": "100.0.57",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -20,7 +20,7 @@
     "name": "Jan-Gerke Salomon",
     "email": "jan-gerke@dhis2.org"
   },
-  "manifest_generated_at": "Thu Jan 16 2025 15:30:44 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Tue Feb 04 2025 02:05:00 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
