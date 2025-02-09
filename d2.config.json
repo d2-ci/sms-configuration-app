@@ -6,7 +6,7 @@
   "coreApp": true,
   "minDHIS2Version": "2.35",
   "id": "441cad0c-395a-4e93-8f10-475602397371",
-  "version": "100.0.57",
+  "version": "100.0.58",
   "author": {
     "name": "Jan-Gerke Salomon",
     "email": "jan-gerke@dhis2.org"
