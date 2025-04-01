@@ -1,0 +1,53 @@
+{
+    "name": "sms-configuration-app",
+    "version": "100.0.60",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test",
+        "cy:start": "BROWSER=none yarn start",
+        "cy:open": "concurrently --kill-others --success first --names 'app,cy' 'yarn cy:start' 'yarn cy:wait && cypress open'",
+        "cy:run:live": "cypress run --env networkMode=live",
+        "cy:run:capture": "cypress run --env networkMode=capture",
+        "cy:run:stub": "cypress run --env networkMode=stub",
+        "cy:wait": "wait-on http-get://localhost:3000",
+        "cy:capture": "concurrently --kill-others --success first --names 'app,cy' 'yarn cy:start' 'yarn cy:wait && yarn cy:run:capture'",
+        "cy:stub": "concurrently --kill-others --success first --names 'app,cy' 'yarn cy:start' 'yarn cy:wait && yarn cy:run:stub'",
+        "cy:run": "concurrently --kill-others --success first --names 'app,cy' 'yarn cy:start' 'yarn cy:wait && yarn cy:run:live'",
+        "cy:run:tags": "concurrently --kill-others --success first --names 'app,cy' 'yarn cy:start' 'yarn cy:wait && cypress-tags run'",
+        "lint:staged": "yarn lint --staged",
+        "lint": "yarn d2-style check",
+        "format:staged": "yarn format --staged",
+        "format": "yarn d2-style apply"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^12.3.0",
+        "@dhis2/cli-style": "^10.7.6",
+        "@dhis2/cypress-commands": "^8.0.0",
+        "@dhis2/cypress-plugins": "^8.0.0",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/react": "^16.2.0",
+        "concurrently": "^6.2.0",
+        "cypress": "^7.5.0",
+        "cypress-cucumber-preprocessor": "^4.1.2",
+        "eslint-plugin-cypress": "^2.11.2",
+        "react-test-renderer": "^16.13.1",
+        "wait-on": "^5.3.0"
+    },
+    "dependencies": {
+        "@dhis2/app-runtime": "^3.13.1",
+        "@dhis2/d2-i18n": "^1.1.0",
+        "@dhis2/prop-types": "^2.0.0",
+        "@dhis2/ui": "^10.1.11",
+        "classnames": "^2.2.6",
+        "moment": "^2.27.0",
+        "query-string": "^6.13.8",
+        "react-router-dom": "^5.2.0",
+        "use-debounce": "^5.2.1",
+        "use-query-params": "^1.1.9"
+    },
+    "resolutions": {}
+}
